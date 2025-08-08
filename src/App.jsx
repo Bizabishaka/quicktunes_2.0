@@ -14,9 +14,12 @@ function App() {
   }, [darkMode]);
 
   return (
-    <Layout darkMode={darkMode} setDarkMode={setDarkMode}>
+    <div className="">
+      <Layout darkMode={darkMode} setDarkMode={setDarkMode}>
       <AppRoutes />
     </Layout>
+    </div>
+    
   );
 }
 

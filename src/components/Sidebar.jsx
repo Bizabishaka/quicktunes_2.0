@@ -15,7 +15,7 @@ export default function Sidebar({ isOpen, darkMode, closeSidebar }) {
       } lg:translate-x-0 transition-transform duration-200 ease-in-out`}
     >
       <div className="flex flex-col h-full p-4">
-        <h2 className="text-xl font-bold mb-6 p-2 dark:text-white">🎧</h2>
+        <h2 className="text-xl text-center font-bold mb-6 p-2 ">🎧</h2>
         
         <nav className="flex-1">
           <ul className="space-y-2">

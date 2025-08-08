@@ -22,9 +22,9 @@ export default function Home() {
   };
 
   return (
-   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+   <div className="lg:ml-64 max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-center mb-6 dark:text-white">🎧 QuickTunes</h1>
+          <h1 className="text-3xl font-bold text-center mb-6 text-amber-100">🎧 QuickTunes</h1>
 
           <form onSubmit={handleSearch} className="max-w-2xl mx-auto flex">
             <input
